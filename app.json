@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "native-travelling",
-    "slug": "native-travelling",
+    "name": "paradise",
+    "slug": "paradise",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/lake.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.israelbosun.paradise"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ec6effe-89b8-47d4-900a-dd7fa66cb4a8"
+      }
     }
   }
 }
